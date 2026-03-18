@@ -14,7 +14,7 @@ public class CalculatorTest {
 	@Test
 	public void subtractTest() {
 		calculator = new Calculator();
-		int expected = 2;
+		int expected = 42; //Was 2 but this is to demostrate build failure in Jenkins
 		int actual = calculator.subtract("5,3");
 		assertEquals(expected, actual);
 	}
